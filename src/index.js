@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import AppHard from './app-hard.js';
+import AppMedium from './app-medium.js';
+import AppEasy from './app-easy-and-veryeasy.js';
+//import AppMedium from './app-Medium.js'
+import reportWebVitals from './reportWebVitals.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+  <AppEasy />
+  <AppMedium />
+  <AppHard />
   </React.StrictMode>
 );
 
